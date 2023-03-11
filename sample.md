@@ -1,5 +1,4 @@
 ```mermaid
-// この中にMermaid記法
 graph TD;
     A-->B;
     A-->C;
