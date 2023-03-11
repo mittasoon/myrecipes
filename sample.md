@@ -10,13 +10,7 @@
 これは _斜体_ です。  
 これは ~~訂正線~~です。  
 
-[リンクです](https://google.com)
-
-> これは引用です。  
-> これは引用です。  
-> これは引用です。  
-
-これは `code` です
+------  
 
 - リスト１
 - リスト２
@@ -32,7 +26,25 @@
     1. 番号リストB-2
 1. 番号リストC
 
-![フクロウ](https://notepm.jp/assets/img/apple-touch-icon-120x120.png)
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+[リンクです](https://google.com)
+
+> これは引用です。  
+> これは引用です。  
+> これは引用です。  
+
+これは `code` です
+
+
+
+![うなりくん](https://unarikun.jp/elements/application/unari_kihon.jpg)
 
 ***
 
@@ -44,10 +56,3 @@
 
 _ _ _
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
